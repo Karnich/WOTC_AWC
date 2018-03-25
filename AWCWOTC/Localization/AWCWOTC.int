@@ -1,0 +1,47 @@
+[UIScreenListener_Facility_Academy_AWCPack_LW]
+
+[UIArmory_AWCExpandedPromotion_LW]
+m_strSelectAbility="SELECT ABILITY:"
+m_strAbilityHeader="AWC ABILITIES:"
+m_strConfirmAbilityTitle="CONFIRM ABILITY SELECTION"
+m_strConfirmAbilityText="You can't remove or change abilities. Are you sure you want to learn <XGParam:StrValue0/>?"
+m_strAbilityLockedTitle="LOCKED"
+m_strAbilityLockedDescription="Get more combat experience to learn new abilities."
+strAWCTrainButton=Train Ability
+
+[UIChooseAWCAbility_LW]
+m_strTitle=AWC Ability Training
+m_strInventoryLabel=Available Abilities:
+m_strBuy=BEGIN TRAINING
+
+[LWAWCUtilities]
+strAWCMenuOption=AWC Abilities
+strAWCListItemDescription=View already trained AWC Abilities.
+
+LeftAbilityTreeTitle="Offensive"
+CenterAbilityTreeTitle="Pistol"
+RightAbilityTreeTitle="Defensive"
+
+AWCLevelNames[0]="AWC Ability"
+AWCLevelNames[1]="AWC Ability"
+AWCLevelNames[2]="AWC Ability"
+AWCLevelNames[3]="AWC Ability"
+AWCLevelNames[4]="AWC Ability"
+AWCLevelNames[5]="AWC Ability"
+AWCLevelNames[6]="AWC Ability"
+
+[UIFacility_AWCTrainingSlot_LW]
+m_strTrainAWCDialogTitle=ADVANCED TRAINING
+m_strTrainAWCDialogText=Soldiers of sufficient rank can undergo specialized training at the Advanced Warfare Center. They will be unavailable for combat during the training process.\n\nDo you want to proceed?
+m_strStopTrainAWCDialogTitle=STOP ADVANCED TRAINING?
+m_strStopTrainAWCDialogText=Do you want to stop %UNITNAME from training?\n\nWARNING: All advanced training progress will be lost.
+m_strNoSoldiersTooltip=There are no soldiers available for Advanced Warfare Center ability training. 
+m_strSoldiersAvailableTooltip=Assign a soldier to train their advanced abilities. 
+m_strNeedsUpgradeTooltip="Upgrade the facility to unlock a second slot for AWC training."
+
+[UIAlert_AWCTrainingComplete_LW]
+m_strTrainingCompleteLabel=ADVANCED TRAINING COMPLETED
+m_strTrainingComplete=<XGParam:StrValue0/> has completed their training. New abilities can be examined and assigned by viewing the soldier in the Armory.
+m_strViewSoldier=VIEW SOLDIER
+m_strNewAbilityLabel=NEW ABILITY
+
